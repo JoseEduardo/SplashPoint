@@ -7,6 +7,8 @@ Project("{40408A42-51A5-DEB3-B825-7AE5EA27E054}") = "SplashPoint", "Assembly-CSh
 EndProject
 Project("{40408A42-51A5-DEB3-B825-7AE5EA27E054}") = "SplashPoint", "Assembly-CSharp-Editor.csproj", "{55DBB360-0BAB-F1A6-CE54-D64C3A6EFDED}"
 EndProject
+Project("{40408A42-51A5-DEB3-B825-7AE5EA27E054}") = "SplashPoint", "Assembly-UnityScript-firstpass.unityproj", "{22E660B7-69F7-78F4-E06B-0557D030AD7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{55DBB360-0BAB-F1A6-CE54-D64C3A6EFDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55DBB360-0BAB-F1A6-CE54-D64C3A6EFDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55DBB360-0BAB-F1A6-CE54-D64C3A6EFDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E660B7-69F7-78F4-E06B-0557D030AD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E660B7-69F7-78F4-E06B-0557D030AD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E660B7-69F7-78F4-E06B-0557D030AD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E660B7-69F7-78F4-E06B-0557D030AD7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																		GlobalSection(MonoDevelopProperties) = preSolution
+																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
