@@ -6,6 +6,7 @@ public class DrawPool : MonoBehaviour {
 	public Color color = Color.magenta;
 	private Transform instantiatedPool;
 	public bool PaintWithClickMouse = false;
+	public float DestroyIn = 5F;
 
 	// Use this for initialization
 	void Start () {
@@ -35,7 +36,7 @@ public class DrawPool : MonoBehaviour {
 	public void Paint(Vector3 location, Quaternion Rotation, Color color){
 		instantiatedPool = Instantiate(Pool, new Vector3(location.x, location.y, location.z), Rotation) as Transform;
 
-		Destroy (instantiatedPool.gameObject, 5);
+		Destroy (instantiatedPool.gameObject, DestroyIn);
 	}
 
 
