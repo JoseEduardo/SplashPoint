@@ -8,6 +8,9 @@ public class DrawPool : MonoBehaviour {
 	public bool PaintWithClickMouse = false;
 	public float DestroyIn = 5F;
 
+	public Animator animator;
+	bool isStunned;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -26,11 +29,27 @@ public class DrawPool : MonoBehaviour {
 				Paint (hit.point, Quaternion.LookRotation (hit.normal), color); // Step back a little
 			}
 		} else {
-			if (Input.GetMouseButtonDown(0)){
-				Paint (transform.position, transform.rotation, color); // Step back a little
+			if (Input.GetButtonDown("Fire1"))
+			{
+				animator.SetTrigger("Attack1Trigger");
+				if (warrior == Warrior.Brute)
+					StartCoroutine (COStunPause(1.2f));
+				else if (warrior == Warrior.Sorceress)
+					StartCoroutine (COStunPause(1.2f));
+				else
+					StartCoroutine (COStunPause(.6f));
+
+				Paint (transform.position, transform.rotation, color); // Step back a little					
 			}
 		}
 
+	}
+
+	public IEnumerator COStunPause(float pauseTime)
+	{
+		isStunned = true;
+		yield return new WaitForSeconds(pauseTime);
+		isStunned = false;
 	}
 
 	public void Paint(Vector3 location, Quaternion Rotation, Color color){
