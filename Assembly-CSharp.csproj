@@ -39,40 +39,40 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\AddItem.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\BarAttribute.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\DescriptionArea.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\Displayer.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\Equipable.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\EquipmentSystem.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\MoneySystem.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\MultiPurposeButton.cs" />
-     <Compile Include="Assets\Content\Samples\Fps_Classic\Scripts\RotateAround.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\DragMouseOrbit.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\DragPanel.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\Equipment.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\HotbarSlot.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\Pickup.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\Stats.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\ToggleInventory.cs" />
-     <Compile Include="Assets\Content\Samples\Rpg\Scripts\Tooltip.cs" />
-     <Compile Include="Assets\Content\Scripts\Runtime\Container.cs" />
-     <Compile Include="Assets\Content\Scripts\Runtime\InventoryManager.cs" />
-     <Compile Include="Assets\Content\Scripts\Runtime\InventoryUtilities.cs" />
-     <Compile Include="Assets\Content\Scripts\Runtime\InventoryWindow.cs" />
-     <Compile Include="Assets\Content\Scripts\Runtime\Item.cs" />
-     <Compile Include="Assets\Content\Scripts\Runtime\Slot.cs" />
      <Compile Include="Assets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
      <Compile Include="Assets\Fighter Pack Bundle Free\Code\CameraControl.cs" />
      <Compile Include="Assets\Fighter Pack Bundle Free\Code\FighterAnimationDemo.cs" />
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\AddItem.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\BarAttribute.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\DescriptionArea.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\Displayer.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\Equipable.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\EquipmentSystem.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\MoneySystem.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\MultiPurposeButton.cs" />
+     <Compile Include="Assets\Inventory\Samples\Fps_Classic\Scripts\RotateAround.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\DragMouseOrbit.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\Equipment.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\HotbarSlot.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\Pickup.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\Stats.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\ToggleInventory.cs" />
+     <Compile Include="Assets\Inventory\Samples\Rpg\Scripts\Tooltip.cs" />
+     <Compile Include="Assets\Inventory\Scripts\Runtime\Container.cs" />
+     <Compile Include="Assets\Inventory\Scripts\Runtime\InventoryManager.cs" />
+     <Compile Include="Assets\Inventory\Scripts\Runtime\InventoryUtilities.cs" />
+     <Compile Include="Assets\Inventory\Scripts\Runtime\InventoryWindow.cs" />
+     <Compile Include="Assets\Inventory\Scripts\Runtime\Item.cs" />
+     <Compile Include="Assets\Inventory\Scripts\Runtime\Slot.cs" />
      <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera.cs" />
      <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera_Boundaries.cs" />
      <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera_Boundary.cs" />
@@ -182,16 +182,16 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
