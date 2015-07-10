@@ -8,6 +8,8 @@ public class WarriorAnimationDemo : MonoBehaviour {
 	float rotationSpeed = 30;
 	Vector3 inputVec;
 	bool isMoving;
+	private Moba_Camera MCamera;
+	public GameObject CameraTarget = null;
 
 	private DrawPool DPool;
 
@@ -19,6 +21,10 @@ public class WarriorAnimationDemo : MonoBehaviour {
 	void Start () {
 		animator = GetComponent<Animator> ();
 		DPool = GetComponent<DrawPool> ();
+
+		CameraTarget = GameObject.FindGameObjectsWithTag ("MobaCAM") [0];
+		MCamera = CameraTarget.GetComponent<Moba_Camera>();
+		MCamera.settings.lockTargetTransform = transform;
 	}
 
 	void Update()

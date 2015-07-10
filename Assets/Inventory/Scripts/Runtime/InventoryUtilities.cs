@@ -1,6 +1,9 @@
 ﻿// In this file are present all the scripts that provide functionalities to the item database,crafting manager,and the system itself.
 
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -368,7 +371,7 @@ public class CraftingRecipe {
 }
 
 public static class InventoryInstantiater {
-
+	#if UNITY_EDITOR
 	[MenuItem("GameObject/Inventory/Slot")]
 	public static void AddSlot () {
 		var go = new GameObject("Slot",new Type[] {typeof(RectTransform),typeof(Image),typeof(Slot)});
@@ -401,6 +404,7 @@ public static class InventoryInstantiater {
 		go.transform.localScale = Vector3.one;
 		go.GetComponent<InventoryWindow>().windowName = "Inventory";
 	}
+	#endif
 }
 
 
